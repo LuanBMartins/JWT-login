@@ -12,8 +12,6 @@ module.exports = {
       });
 
       await usuario.adicionaSenha(senha)
-      console.log(usuario);
-
       await usuario.adiciona();
 
       res.status(201).json();
